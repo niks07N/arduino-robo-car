@@ -1,3 +1,6 @@
+## 🔌 Arduino Code
+
+```cpp
 #include <Servo.h>
 
 #define IN1 7
@@ -26,7 +29,6 @@ void setup() {
 
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
-
 
   scanServo.attach(servoPin);
   scanServo.write(90); 
@@ -72,7 +74,6 @@ void moveForward() {
   digitalWrite(IN2, LOW);
   digitalWrite(IN3, HIGH);
   digitalWrite(IN4, LOW);
-
 }
 
 void reverse() {
@@ -80,7 +81,6 @@ void reverse() {
   digitalWrite(IN2, HIGH);
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, HIGH);
-
 }
 
 void turnLeft() {
@@ -102,7 +102,6 @@ void stopMotors() {
   digitalWrite(IN2, LOW);
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, LOW);
-
 }
 
 int getDistance() {
