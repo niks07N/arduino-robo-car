@@ -1,5 +1,15 @@
 ## 🔌 Arduino Code
+An autonomous robotic car built using Arduino that can detect and avoid obstacles.
 
+## 🔧 Components Used
+- Arduino Uno
+- L298N Motor Driver Module
+- Ultrasonic Sensor (HC-SR04)
+- 2 DC Motors + Wheels
+- Chassis
+- Battery pack
+- Jumper wires
+- Breadboard
 ```cpp
 #include <Servo.h>
 
